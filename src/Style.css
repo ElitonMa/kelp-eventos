@@ -1,0 +1,35 @@
+.principal {
+  display: flex;
+  width: 392px;
+  height: 852px;
+  border: 1px dotted black;
+  flex-direction: row;
+  justify-self: center;
+}
+
+.fundo-app {
+  background: linear-gradient(#707ab0, #12171e);
+  height: inherit;
+  width: inherit;
+}
+
+.login {
+  color: rgb(255, 255, 255);
+}
+
+.evento{
+  color: rgb(255, 255, 255);
+}
+
+.cadastro {
+  color: rgb(255, 255, 255);
+}
+
+
+nav {
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+  font-family: solitreo;
+}
+

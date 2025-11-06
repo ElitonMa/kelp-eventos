@@ -1,0 +1,13 @@
+function Botao(props) {
+  return (
+    <div className="botao">
+      <button>
+        <nav>
+          {props.nome}
+        </nav>
+      </button>
+    </div>
+  );
+}
+
+export default Botao;
