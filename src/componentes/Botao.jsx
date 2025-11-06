@@ -1,6 +1,6 @@
 function Botao(props) {
   return (
-    <div className="botao">
+    <div>
       <button>
         <nav>
           {props.nome}
