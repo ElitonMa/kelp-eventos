@@ -25,7 +25,6 @@
   color: rgb(255, 255, 255);
 }
 
-
 nav {
   color: rgb(255, 255, 255);
   padding: 10px;
@@ -34,7 +33,31 @@ nav {
   cursor: pointer;
 }
 
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
+.links-nav {
+  display: flex;
+  width: 100px;
+}
+
+a > div  {
+  width: 100px;
+}
+
+a > div > button {
+  border-radius: 50px;
+  width: inherit;
+}
+
+.EventosBox {
+  background-color: #a2aabf;
+  width: 321px;
+  height: 109px;
+}
 
 
 

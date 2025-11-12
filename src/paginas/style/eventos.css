@@ -1,0 +1,88 @@
+
+.fundo-eventos {
+    display: flex;
+    background-color: #404c6f;
+    height: 780px;
+    width: 335px;
+    flex-direction: row;
+    justify-self: center;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto 1fr;
+    grid-template-areas: 
+    "informacoes"
+    "eventos";
+}
+
+.informacoes-eventos {
+    grid-area: informacoes;
+    padding-top: 20px;
+    padding-left: 30px;
+    height: 80px;
+}
+
+.informacoes-eventos > span > a {
+    font-weight: bolder;
+    text-decoration: none;
+    color: white;
+}
+
+.eventos {
+    display: flex;  
+    justify-self: center;
+    flex-direction: column;
+    grid-area: eventos;
+    width: auto;
+    height: 550px;
+    overflow-y: auto;
+}
+
+/* Barra de scroll */
+.eventos::-webkit-scrollbar {
+    width: 5px; 
+}
+/* Fundo da barra */
+.eventos::-webkit-scrollbar-track {
+    background-color: none;
+    border-radius: 5px;
+}
+
+.eventos::-webkit-scrollbar-thumb {
+    background-color: #273243;
+    border-radius: 5px;
+}
+
+.EventosBox {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+    "data titulo "
+    "data horario"
+    "data preco";
+    margin-bottom: 30px;
+    border-radius: 15px;
+}
+
+
+.data-eventosBox {
+    max-width: 100px;
+    font-size: 35px;
+    margin-left: 10px;
+    grid-area: data;
+    overflow: hidden;
+}
+
+.titulo-eventosBox {
+    font-size: larger;
+    grid-area: titulo;
+}
+
+.horario-eventosBox {
+    font-size: larger;
+    grid-area: horario; 
+}
+
+.preco-eventosBox {
+    font-size: larger;
+    grid-area: preco;
+}

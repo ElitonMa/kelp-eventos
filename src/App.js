@@ -12,10 +12,10 @@ function App() {
         <div className="fundo-app">
        
           {/* Navegação cadastro,login etc...*/}
-          <nav>
-            <Link to="/cadastrar"> <Botao nome="Cadastrar" /> </Link>
-            <Link to="/login"> <Botao nome="Login" /> </Link>
-            <Link to="/"> <Botao nome="Eventos" /> </Link>
+          <nav className="nav-links">
+            <Link to="/cadastrar" className="links-nav" > <Botao nome="Cadastrar" /> </Link>
+            <Link to="/login" className="links-nav" > <Botao nome="Login" /> </Link>
+            <Link to="/" className="links-nav" > <Botao nome="Eventos" /> </Link>
           </nav>
 
           {/* Para os link ir para os lugares certos */}
