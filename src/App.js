@@ -1,28 +1,31 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from "react-router-dom";
 import "./Style.css";
 import Botao from "./componentes/Botao";
 import Cadastro from "./paginas/Cadastro";
 import Login from "./paginas/Login";
+import Inicio from "./paginas/Inicio";
+import { Icon } from "@iconify/react";
+import Voltar from "./componentes/Voltar";
 import Eventos from "./paginas/Eventos";
 
+
 function App() {
-  return (
+   return (
     <Router>
       <div className="principal">
         <div className="fundo-app">
-       
+
           {/* Navegação cadastro,login etc...*/}
-          <nav className="nav-links">
-            <Link to="/cadastrar" className="links-nav" > <Botao nome="Cadastrar" /> </Link>
-            <Link to="/login" className="links-nav" > <Botao nome="Login" /> </Link>
-            <Link to="/" className="links-nav" > <Botao nome="Eventos" /> </Link>
-          </nav>
+          
+              <Voltar />
+          
 
           {/* Para os link ir para os lugares certos */}
           <Routes >
+            <Route path="/" element={<Inicio />} />
             <Route path="/cadastrar" element={<Cadastro />} />
             <Route path="/login" element={<Login />} />
-            <Route path="/" element={<Eventos />} />
+            <Route path="/eventos" element={<Eventos />} />
           </Routes>
         </div>
       </div>

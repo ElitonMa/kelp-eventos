@@ -2,7 +2,6 @@
   display: flex;
   width: 392px;
   height: 852px;
-  border: 1px dotted black;
   flex-direction: row;
   justify-self: center;
 }
@@ -25,7 +24,7 @@
   color: rgb(255, 255, 255);
 }
 
-nav {
+button {
   color: rgb(255, 255, 255);
   padding: 10px;
   font-weight: bold;

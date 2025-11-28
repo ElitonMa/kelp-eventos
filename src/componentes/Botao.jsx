@@ -2,9 +2,7 @@ function Botao(props) {
   return (
     <div>
       <button>
-        <nav>
-          {props.nome}
-        </nav>
+        {props.nome}
       </button>
     </div>
   );

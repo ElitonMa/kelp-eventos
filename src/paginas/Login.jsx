@@ -1,9 +1,17 @@
+import { Link } from "react-router-dom";
+import Botao from "../componentes/Botao";
+import Titulo from "../componentes/Titulo";
+import "./style/login.css";
 
 function Login() {
     return (
         <div className="login">
-            <h1>Bem-vindo ao protótipo do login!</h1>
-            <span>Atualmente não da pra fazer nada</span>
+            <Titulo titulo="KELP" />
+
+            {/* Botão para ir para eventos */}
+            <Link to="/eventos">
+                <Botao nome="Concluir" />
+            </Link>
         </div>
     )
 }
