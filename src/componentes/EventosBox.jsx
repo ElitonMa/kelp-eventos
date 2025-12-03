@@ -1,6 +1,15 @@
+import { useNavigate } from "react-router-dom";
+
 function EventosBox(props) {
+
+  const valor = props.preco;
+  const navigate = useNavigate();
+    const link = () => {
+        navigate('../pagamento/' + props.preco )
+    }
+
   return (
-    <div className="EventosBox">
+    <div className="EventosBox" style={{cursor:"pointer", userSelect:"none"}} onClick={link}>
       <span className="data-eventosBox">{props.data}</span>
       <br />
       <span className="titulo-eventosBox">{props.titulo}</span>

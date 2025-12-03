@@ -1,7 +1,30 @@
-.titulo-principal {
-    font-family: 'Solitreo', sans-serif;
-    color: white;
-    text-shadow: 1px 1px 4px white;
-    font-size: 60px;
-    margin-left: 33%;
+.login {
+  background: linear-gradient(to bottom, #3b4863 40%, #1e2535 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* KELP no topo */
+.kelp {
+  font-family: 'Kalam', cursive;
+  font-size: 64px;
+  color: white;
+  text-shadow: 0 0 12px rgba(255, 255, 255, 0.7);
+  margin-top: 40px;
+  text-align: center;
+}
+
+/* Caixa escura arredondada */
+.fundo-login {
+  background-color: #1e2535;
+  width: 90%;
+  max-width: 400px;
+  border-radius: 60px 60px 0 0;
+  padding: 60px 20px;
+  text-align: center;
+  margin-top: auto; /* empurra para o fim da tela */
+  color: white;
+  box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.4);
 }

@@ -1,0 +1,6 @@
+.fundo {
+    height: inherit;
+    width: inherit;
+    position: absolute;
+    background-color: #404c6f;
+}

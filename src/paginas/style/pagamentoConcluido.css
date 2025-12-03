@@ -1,0 +1,19 @@
+.Concluido{
+    text-align: center;
+    align-items: center;
+    color: white;
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.check{
+    width: 230px;
+    align-items: center;
+}
+.fundoC{
+    background-color: #273243;
+    display: flex;
+}

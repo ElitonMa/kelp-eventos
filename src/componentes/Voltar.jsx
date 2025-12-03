@@ -1,5 +1,4 @@
 import { Icon } from "@iconify/react";
-import { hover } from "@testing-library/user-event/dist/hover";
 import { useNavigate } from "react-router-dom";
 
 function Voltar () {

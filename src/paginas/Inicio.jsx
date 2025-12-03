@@ -2,7 +2,7 @@ import Botao from "../componentes/Botao";
 import Titulo from "../componentes/Titulo";
 import "./style/inicio.css"
 import { Icon } from "@iconify/react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Inicio() {
     return (
