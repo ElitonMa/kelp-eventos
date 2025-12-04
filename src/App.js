@@ -7,17 +7,16 @@ import Voltar from "./componentes/Voltar";
 import Eventos from "./paginas/Eventos";
 import Pagamento from "./paginas/Pagamento";
 import PagamentoConcluido from "./paginas/PagamentoConcluido";
+import AdicionarEvento from "./paginas/AdicionarEvento";
 
 function App() {
-  
- 
   return (
     <Router>
       <div className="principal">
         <div className="fundo-app">
-          {/* Navegação cadastro,login etc...*/}
+          {/* Botão de voltar */}
           <Voltar />
-          {/* Para os link ir para os lugares certos */}
+          {/* Rotas da navegação */}
           <Routes >
             <Route path="/" element={<Inicio />} />
             <Route path="/cadastrar" element={<Cadastro />} />
@@ -25,6 +24,7 @@ function App() {
             <Route path="/eventos" element={<Eventos />} />
             <Route path="/pagamento/:valorP" element={<Pagamento />} />
             <Route path="/pagamentoConcluido" element={<PagamentoConcluido />} />
+            <Route path="/adicionarEvento" element={<AdicionarEvento />} />
           </Routes>
         </div>
       </div>

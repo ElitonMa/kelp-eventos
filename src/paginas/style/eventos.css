@@ -35,6 +35,7 @@
     width: auto;
     height: 550px;
     overflow-y: auto;
+    margin-top: 15px;
 }
 
 /* Barra de scroll */
@@ -70,20 +71,32 @@
     font-size: 35px;
     margin-left: 10px;
     grid-area: data;
-    overflow: hidden;
 }
 
 .titulo-eventosBox {
-    font-size: larger;
+    font-size: large;
     grid-area: titulo;
 }
 
 .horario-eventosBox {
-    font-size: larger;
+    font-size: large;
     grid-area: horario; 
 }
 
 .preco-eventosBox {
-    font-size: larger;
+    font-size: large;
     grid-area: preco;
+}
+
+#dropdown {
+    position: absolute;
+    top: -35px;
+    right: 0;
+    background-color: #273243;
+    border: none;
+}
+
+.fundo-eventos-app {
+    background-color: #273243;
+    height: 815px;
 }

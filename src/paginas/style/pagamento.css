@@ -1,5 +1,5 @@
 .fundo {
-    height: 94.8%;
+    height: inherit;
     width: inherit;
     position: absolute;
     background-color: #273243;
@@ -50,7 +50,7 @@
 }
 
 .salvar > div > button {
-    background-color: blue;
+    background-color: #2133a9;
     color: white;
     width: 156px;
     border-radius: 15px;
@@ -60,4 +60,8 @@
 
 .salvar > div > button:hover {
     cursor: pointer;
+}
+
+#Online:focus, #Dinheiro:focus, #Maquina:focus {
+    border: 1px solid greenyellow;
 }

@@ -13,7 +13,7 @@ function Inicio() {
                     <Icon icon="qlementine-icons:user-16" color="white" fontSize={180} />
                 </div>
                 <div className="titulo">
-                    <Titulo titulo="KELP" />
+                    <Titulo titulo="KELP"   id="titulo" />
                 </div>
                 <div className="botoes">
                     <Link to="/login">

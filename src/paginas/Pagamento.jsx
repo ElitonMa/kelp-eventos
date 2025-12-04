@@ -19,9 +19,9 @@ function Pagamento(props) {
                 <span> Total a pagar: R${valorP} </span>
             </div>
             <div className="formas-pagamento">
-                 <Botao nome="Pagar agora (Online)" icone="ion:card" iconeSize='38' iconeInline="true"/>
-                <Botao nome="Pagar com dinheiro" iconeSize='40' iconeInline="true" icone="tdesign:money-filled"/>
-                <Botao nome="Pagar com máquina móvel" iconeWidth="28" iconeHeight="46" iconeInline="true" icone="fontisto:shopping-pos-machine" />
+                <Botao nome="Pagar agora (Online)" icone="ion:card" iconeSize='38' iconeInline="true" id='Online'/>
+                <Botao nome="Pagar com dinheiro" iconeSize='40' iconeInline="true" icone="tdesign:money-filled" id='Dinheiro'/>
+                <Botao nome="Pagar com máquina móvel" iconeWidth="28" iconeHeight="46" iconeInline="true" icone="fontisto:shopping-pos-machine" id='Maquina' />
             </div>
             <div className="salvar" onClick={salvar}> 
                 <Botao nome="Salvar" />

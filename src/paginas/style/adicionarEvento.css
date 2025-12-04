@@ -1,0 +1,42 @@
+
+.fundo-adicionar {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 360px;
+    background-color: #273243;
+    border-radius: 15px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+#botao-add {
+    background-color: #2133a9;
+    color: white;
+    width: 156px;
+    border-radius: 15px;
+    height: 54px;
+    border: none;
+}
+
+
+.titulo-add  {
+    font-family: 'Solitreo', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 4px white;
+    font-size: 60px;
+    margin-left: 40px;
+}
+
+.fundo-adicionar > form > label {
+    color: rgb(197, 197, 197);
+
+}
+
+#titulo-addevento {
+    margin-right: 30;
+}
